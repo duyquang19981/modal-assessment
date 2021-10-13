@@ -1,0 +1,10 @@
+.custom-button {
+  width: 300px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+}
