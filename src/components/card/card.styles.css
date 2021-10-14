@@ -1,0 +1,30 @@
+.card {
+  width: 200px;
+  height: fit-content;
+  border-radius: 6px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  cursor: pointer;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--image {
+  width: inherit;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card--name {
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.card--price {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  color: #ef0e06fc;
+  font-weight: 500;
+}
